@@ -15,10 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class SolicitacoesApplication {
 
+    /*
     @Autowired
     AlunoRepository alunoRepository;
 
-    /* gravando antes de usar o REST
+     gravando antes de usar o REST
     @Bean
     public CommandLineRunner run( ){
         return args -> {
