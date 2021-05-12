@@ -1,6 +1,16 @@
 # Compiled class file
 *.class
 
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+app/node_modules/
+
 # Log file
 *.log
 
